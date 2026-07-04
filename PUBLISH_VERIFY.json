@@ -1,0 +1,28 @@
+{
+  "repo": "commerce-platform-core",
+  "checks": {
+    "package_json": "valid",
+    "package": {
+      "name": "commerce-platform-core",
+      "private": false,
+      "description": "A commerce backend platform snapshot with core packages, dashboard packages, docs, and extensibility tooling.",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/ahfoysal/commerce-platform-core.git"
+      }
+    },
+    "readme_present": true,
+    "gitignore_present": true,
+    "forbidden_paths_count": 0,
+    "forbidden_paths": [],
+    "token_hits": [],
+    "forbidden_publication_wording_hits": [],
+    "large_files_over_95mb": [],
+    "git_status_entries_before_commit": [
+      "M .env.example",
+      " M PUBLISHING_REPORT.md",
+      " M packages/dev-server/test-plugins/experimental-ui/components/LocationMap.tsx"
+    ]
+  },
+  "blockers": []
+}
